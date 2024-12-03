@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PetCare Scheduler</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Daycare de Mascotas(Perros)</h1>
+  <form id="appointmentForm">
+    <label>Nombre de la Mascota:</label>
+    <input type="text" id="petName" required>
+    <label>Fecha:</label>
+    <input type="date" id="date" required>
+    <label>Hora:</label>
+    <input type="time" id="time" required>
+    <label>Servicios Adicionales:</label>
+    <input type="text" id="extras" placeholder="Opcional">
+    <button type="submit">Agendar</button>
+  </form>
+  <div id="appointments"></div>
+  <script src="script.js"></script>
+</body>
+</html>
